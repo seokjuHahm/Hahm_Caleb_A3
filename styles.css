@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.vertical {
+    position: fixed;
+    left: 5%;
+    border-left: 3px solid rgb(186,186,186);
+    height: 100vh;
+}
+
+.vertical1{
+    position: absolute;
+    left: 5%;
+    border-left: 3px solid rgb(151,109,161);
+    z-index: 1;
+    height: 112.5vh ;
+
+
+}
+#rings {
+    position: absolute;
+    right: 0;
+}
+
+#meteor1{
+    position: absolute;
+    left: 191px;
+    top: 72.72px;
+
+
+}
+
+#star1{
+    position: absolute;
+    left: 548px;
+    top: 105.96px;
+
+}
+
+#meteor2{
+    position: absolute;
+    left: 294px;
+    top: 365.72px;
+
+
+}
+#meteor3{
+    position: absolute;
+    left: 1307px;
+    top: 410.72px;
+
+}
+#star2{
+    position: absolute;
+    left: 1269px;
+    top: 550.96px;
+
+}
+
+#side_icon1{
+    position: absolute;
+    left: 7%;
+    top: 50vh;
+    color: white;
+    text-align: center;
+}
+
+#plane{
+    position: absolute;
+    right: 0;
+    top: 1297.83px;
+
+}
+
+#background1 {
+    background-color: rgb(26,31,35);
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+
+#title {
+
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 100px;
+    
+}
+
+
+#background2 {
+    background: linear-gradient(rgb(26,31,35), white);
+    width: auto;
+    height: 37.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+#pfp {
+    border-radius: 50%;
+    border: 20px solid rgb(217,217,217);
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+}
+
+#pfp2 {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 15px;
+    position: relative;
+    justify-content: center;
+    height: 15rem;
+    left: 10%;
+
+}
+#name_pfp2{
+    position: relative;
+    margin: 10px;
+    left: 11%;
+
+    
+}
+#paragraph_about_me{
+    width: 50%;
+    position: relative;
+    left: 30%;
+    margin-top: 3rem;
+
+}
+
+#background3 {
+    background: linear-gradient(white, rgb(73,124,152));
+    width: auto;
+    height: 37.5vh 
+}
+
+#background4 {
+    background-color:rgb(73,124,152) ;
+    width: auto;
+    height: 145vh;
+}
+
+#container_circles{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+#container_circles p{
+    text-align: center;
+    margin: 20px;
+}
+#container_circles div{
+
+    
+    border-radius: 50%;
+    background-color: rgb(195,216,222);
+    height: 12rem;
+    width: 12rem;
+    
+
+
+
+}
+#container_circles h1{
+    color: #A1729D;
+    text-align: center;
+    position: relative;
+    top: 40%;
+
+}
+ 
+
+#background5 {
+    background: linear-gradient(rgb(73,124,152), white);
+    width: auto;
+    height: 37.5vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    
+}
+
+
+#project_images{
+    margin-top: 100px;
+    display: grid;
+    width: 75%;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+#project_images img{
+    width: 27rem;
+    height: 17rem;
+    background-color: red;
+    border-radius: 15%;
+    object-fit: cover;
+}
+
+#icon3{
+    position: absolute;
+    left: 10%;
+}
+
+#background6 {
+    background: white;
+    height: 40vh; 
+}
+
+#background7 * {
+
+    color: black;
+}
+
+
+#background7 {
+    background: linear-gradient(white, rgb(73,124,152));
+    width: auto;
+    height: 100vh; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+   
+
+}
+
+#title_contact{
+    margin: 100px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-ev;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    
+    text-align: center;
+    padding-left: 100px;
+
+}
+
+.button{
+    background-color: white;
+    width: 75%;
+    height: 20%;
+    border-radius: 15%;
+
+}
+.button *{
+    color: black;
+    padding-top: 12%;
+
+}
+.card *{
+    color: black;
+
+
+}
+
+.card h1{
+    padding: 20px;
+
+
+}
+#icon4{
+    position: relative;
+    right: 950px;
+    top: 150px;
+    }
+
+#cards{
+    position: absolute;
+    top: 400vh;
+    left: 30vh;
+    display: flex;
+   
+}
+
+
+
+.circle_socials{
+    border-radius: 50%;
+    background-color: rgb(195,216,222);
+    height: 12rem;
+    width: 12rem;
+    margin: 30px;
+    margin-left: 200px;
+
+}
+
